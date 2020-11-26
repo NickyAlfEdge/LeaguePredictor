@@ -5,7 +5,7 @@ This project utilised various APIs, most notably of which being the League of Le
 
 Overall, the Alexa device was found to be ill-fitting fro this kind of functionality due to Riot Games - the creators of League of Legends, not allowing for third party connections to be authorised, therefore OAuth could not be used. This made the interlinking between accounts and the device quite rigid. 
 
-However, the trained model was able to determine the outcome of League of LEgends games with moderate success (60% accuracy), given the utilised dataset and the depth to these kinds of games this was deemed to be a moderate success. 
+However, the trained model was able to determine the outcome of League of Legends games with a rate of 60% accuracy, given the utilised dataset and the depth to these kinds of games this was deemed to be a moderate success. 
 
 ## Technology Used
 - AWS Lambda
