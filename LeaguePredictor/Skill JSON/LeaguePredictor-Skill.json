@@ -1,0 +1,526 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "league predictor",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Pause",
+                        "Undo",
+                        "Cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "How do I fix this",
+                        "It won't work",
+                        "I'm stuck",
+                        "I don't know how this works",
+                        "I need help",
+                        "please help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Escape",
+                        "Shut down",
+                        "End",
+                        "Exit",
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "I'd like to go home",
+                        "Return home",
+                        "Home"
+                    ]
+                },
+                {
+                    "name": "AccountNameIntent",
+                    "slots": [
+                        {
+                            "name": "CharacterOne",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterTwo",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterThree",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterFour",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterFive",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterSix",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterSeven",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterEight",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterNine",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterTen",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterEleven",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterTwelve",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterThirteen",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterFourteen",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterFifteen",
+                            "type": "ACCOUNTNAME"
+                        },
+                        {
+                            "name": "CharacterSixteen",
+                            "type": "ACCOUNTNAME"
+                        }
+                    ],
+                    "samples": [
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen} {CharacterEleven} {CharacterTwelve} {CharacterThirteen} {CharacterFourteen} {CharacterFifteen} {CharacterSixteen}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen} {CharacterEleven} {CharacterTwelve} {CharacterThirteen} {CharacterFourteen} {CharacterFifteen}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen} {CharacterEleven} {CharacterTwelve} {CharacterThirteen} {CharacterFourteen}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen} {CharacterEleven} {CharacterTwelve} {CharacterThirteen}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen} {CharacterEleven} {CharacterTwelve}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen} {CharacterEleven}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine} {CharacterTen}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight} {CharacterNine}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven} {CharacterEight}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix} {CharacterSeven}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive} {CharacterSix}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour} {CharacterFive}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree} {CharacterFour}",
+                        "{CharacterOne} {CharacterTwo} {CharacterThree}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "Continue",
+                        "Go ahead",
+                        "Okay",
+                        "Sure",
+                        "Yes Please",
+                        "Yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "No thank you",
+                        "Nah",
+                        "No thanks",
+                        "No"
+                    ]
+                },
+                {
+                    "name": "PredictOutcomeIntent",
+                    "slots": [],
+                    "samples": [
+                        "predict my match",
+                        "Predict it",
+                        "Predict my game"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ACCOUNTNAME",
+                    "values": [
+                        {
+                            "id": "space",
+                            "name": {
+                                "value": "space"
+                            }
+                        },
+                        {
+                            "id": "z",
+                            "name": {
+                                "value": "z",
+                                "synonyms": [
+                                    "zulu",
+                                    "zed",
+                                    "zee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "y",
+                            "name": {
+                                "value": "y",
+                                "synonyms": [
+                                    "yankee",
+                                    "why"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "x",
+                            "name": {
+                                "value": "x",
+                                "synonyms": [
+                                    "x-ray",
+                                    "xray",
+                                    "ex"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "w",
+                            "name": {
+                                "value": "w",
+                                "synonyms": [
+                                    "whiskey",
+                                    "double you"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "v",
+                            "name": {
+                                "value": "v",
+                                "synonyms": [
+                                    "victor",
+                                    "vee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "u",
+                            "name": {
+                                "value": "u",
+                                "synonyms": [
+                                    "uniform",
+                                    "you"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "t",
+                            "name": {
+                                "value": "t",
+                                "synonyms": [
+                                    "tango",
+                                    "tea"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "s",
+                            "name": {
+                                "value": "s",
+                                "synonyms": [
+                                    "sierra",
+                                    "ess"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "r",
+                            "name": {
+                                "value": "r",
+                                "synonyms": [
+                                    "romeo",
+                                    "arr"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "q",
+                            "name": {
+                                "value": "q",
+                                "synonyms": [
+                                    "quebec",
+                                    "queue"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "p",
+                            "name": {
+                                "value": "p",
+                                "synonyms": [
+                                    "papa",
+                                    "pee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "o",
+                            "name": {
+                                "value": "o",
+                                "synonyms": [
+                                    "oscar",
+                                    "ohh"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "n",
+                            "name": {
+                                "value": "n",
+                                "synonyms": [
+                                    "november",
+                                    "enn"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "m",
+                            "name": {
+                                "value": "m",
+                                "synonyms": [
+                                    "mike",
+                                    "emm"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "l",
+                            "name": {
+                                "value": "l",
+                                "synonyms": [
+                                    "lima",
+                                    "ell"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "k",
+                            "name": {
+                                "value": "k",
+                                "synonyms": [
+                                    "kilo",
+                                    "kay"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "j",
+                            "name": {
+                                "value": "j",
+                                "synonyms": [
+                                    "juliett",
+                                    "jay"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "i",
+                            "name": {
+                                "value": "i",
+                                "synonyms": [
+                                    "india",
+                                    "ayy",
+                                    "eye"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "h",
+                            "name": {
+                                "value": "h",
+                                "synonyms": [
+                                    "hotel",
+                                    "heitch"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "g",
+                            "name": {
+                                "value": "g",
+                                "synonyms": [
+                                    "golf",
+                                    "gee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "f",
+                            "name": {
+                                "value": "f",
+                                "synonyms": [
+                                    "foxtrot",
+                                    "eff"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "e",
+                            "name": {
+                                "value": "e",
+                                "synonyms": [
+                                    "echo",
+                                    "ee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "d",
+                            "name": {
+                                "value": "d",
+                                "synonyms": [
+                                    "delta",
+                                    "dee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "c",
+                            "name": {
+                                "value": "c",
+                                "synonyms": [
+                                    "charlie",
+                                    "cee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "b",
+                            "name": {
+                                "value": "b",
+                                "synonyms": [
+                                    "bravo",
+                                    "bee"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "a",
+                            "name": {
+                                "value": "a",
+                                "synonyms": [
+                                    "alpha",
+                                    "ae"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "1",
+                                "synonyms": [
+                                    "one"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "2",
+                                "synonyms": [
+                                    "two"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "3",
+                                "synonyms": [
+                                    "three"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "name": {
+                                "value": "4",
+                                "synonyms": [
+                                    "four"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "5",
+                            "name": {
+                                "value": "5",
+                                "synonyms": [
+                                    "five"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "name": {
+                                "value": "6",
+                                "synonyms": [
+                                    "six"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": {
+                                "value": "7",
+                                "synonyms": [
+                                    "seven"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "name": {
+                                "value": "8",
+                                "synonyms": [
+                                    "eight"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "name": {
+                                "value": "9",
+                                "synonyms": [
+                                    "nine"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0",
+                            "name": {
+                                "value": "0",
+                                "synonyms": [
+                                    "zero"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
