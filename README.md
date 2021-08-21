@@ -1,5 +1,5 @@
 # LeaguePredictor
-MSc Dissertation Project - for the creation of an Alexa Skill that can utilised to predict the outcome of a LEague of Legends game. 
+MSc Dissertation Project - for the creation of an Alexa Skill that can be utilised to predict the outcome of a LEague of Legends game. 
 
 This project utilised various APIs, most notably of which being the League of Legends (Riot API). In addition to exploring the application of the python programming language and accompanying machine leanring libraries and resources such as, Pandas, Scikit-learn, and numpy.
 
